@@ -1,6 +1,6 @@
 import { Module } from "@nestjs/common";
 import { BlogController } from "./blog.controller";
-import { BLOG_SERVICE_TOKEN } from "./blog.interface";
+import { BLOG_SERVICE_TOKEN } from "../../interfaces/blog.interface";
 import { BlogService } from "./blog.service";
 
 @Module({
