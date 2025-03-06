@@ -1,8 +1,8 @@
 import { Injectable } from "@nestjs/common";
-import { IBlogService } from "../../interfaces/blog.interface";
+import { IPostService } from "../../interfaces/post.interface";
 
 @Injectable()
-export class BlogService implements IBlogService {
+export class PostService implements IPostService {
     posts(): any {
         return 'Oi';
     }
